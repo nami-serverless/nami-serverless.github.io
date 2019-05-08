@@ -17,26 +17,34 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      <!-- {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
 
       <a class="sidebar-nav-item" href="/#introduction">Introduction</a>
-      <a class="sidebar-nav-item" href="/#eda">Event-driven architecture</a>
-      <a class="sidebar-nav-item" href="/#webhooks">Webhooks</a>
-      <a class="sidebar-nav-item" href="/#serverless">Serverless Computing | FaaS</a>
-      <a class="sidebar-nav-item" href="/#real-world-examples">Real World Examples</a>
+      <a class="sidebar-nav-item" href="/#eda">EDA & Webhooks</a>
+      <!-- <a class="sidebar-nav-item" href="/#webhooks">Webhooks</a> -->
+      <!-- <a class="sidebar-nav-item" href="/#serverless">Serverless Computing | FaaS</a> -->
+      <!-- <a class="sidebar-nav-item" href="/#real-world-examples">Real World Examples</a> -->
       <a class="sidebar-nav-item" href="/#need-for-a-framework">Need for a Framework</a>
+      <!-- <a class="sidebar-nav-item" href="/#commands">Commands</a> -->
+      <!-- <a class="sidebar-nav-item" href="/#how-it-works">How it Works</a> -->
+      <a class="sidebar-nav-item" href="/#nami-framework-design-decisions">Design Decisions</a>
+      <a class="sidebar-nav-item" href="/#implementation-challenges">Implementation Challenges</a>
+      <!-- <a class="sidebar-nav-item" href="/#message-ordering-and-duplication">Ordering and Duplication</a> -->
+      <!-- <a class="sidebar-nav-item" href="/#load-testing">Load Testing</a> -->
+      <a class="sidebar-nav-item" href="/#future-plans">Future Plans</a>
+      <a class="sidebar-nav-item" href="/#about-us">About Us</a>
+      <a class="sidebar-nav-item" href="/#references">References</a>
 
-
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
   </div>
 </div>
