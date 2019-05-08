@@ -8,16 +8,16 @@ permalink:        pretty
 
 # Setup
 title:            Nami
-tagline:          'Serverless Framework'
-description:      'A Serverless Framework for consuming webhooks at scale'
-url:
+tagline:          Serverless Framework
+description:      A Serverless Framework for consuming webhooks at scale
+url:              https://nami-serverless.github.io
 baseurl:          /
 
 author:
-  name:           'Nami'
+  name:           Nami
   url:
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          1.0.0
