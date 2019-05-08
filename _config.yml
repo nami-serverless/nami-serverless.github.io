@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      rb-pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Nami
+tagline:          'Serverless Framework'
+description:      'A Serverless Framework for consuming webhooks at scale'
+url:
+baseurl:          /
+
+author:
+  name:           'Nami'
+  url:
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/nami-serverless/nami.github.io
