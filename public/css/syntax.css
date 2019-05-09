@@ -59,6 +59,7 @@
 .highlight .vg { color: #033 } /* Name.Variable.Global */
 .highlight .vi { color: #033 } /* Name.Variable.Instance */
 .highlight .il { color: #f60 } /* Literal.Number.Integer.Long */
+.highlighter-rouge { color: #33c5ff} /* code highlight */
 
 .css .o,
 .css .o + .nt,
