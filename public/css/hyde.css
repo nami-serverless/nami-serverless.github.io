@@ -213,7 +213,6 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
-  display: flex;
 }
 
 @media (min-width: 48em) {
